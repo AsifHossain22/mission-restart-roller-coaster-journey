@@ -2,7 +2,7 @@
 const obj = { foo: 1 };
 obj.bar = 2;
 
-console.log(obj);
+// console.log(obj);
 
 // Quiz 1-9
 let a = 12;
@@ -11,7 +11,13 @@ let b = 3;
 [a, b] = [b, a];
 
 const result = [a, b];
-console.log(result);
+// console.log(result);
 
 // Quiz - 1 : Result - 10/10
 // Alhamdulillah!
+
+// Quiz - 2
+function min(nums) {
+  return Math.min(nums);
+}
+console.log(min([1, 3, 2]));
