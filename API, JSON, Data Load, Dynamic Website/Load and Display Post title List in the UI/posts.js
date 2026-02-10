@@ -22,6 +22,7 @@ const displayPost = (posts) => {
 
   //   1. GetContainer
   const postContainer = document.getElementById("post-container");
+  postContainer.innerHTML = "";
   //   console.log(postContainer);
 
   //UsingForEach
