@@ -1,10 +1,4 @@
-const loadLessons = () => {
-  const url = "https://openapi.programming-hero.com/api/levels/all";
-  fetch(url) //PromiseOfResponse
-    .then((res) => res.json()) //PromiseOfJSONData
-    .then((data) => displayLesson(data.data));
-};
-
+// RemoveActiveClassFunction
 const removeActiveClass = () => {
   const lessonButtons = document.querySelectorAll(".lesson-btn");
   //   console.log(lessonButtons);
@@ -12,7 +6,54 @@ const removeActiveClass = () => {
   lessonButtons.forEach((btn) => btn.classList.remove("active"));
 };
 
-// LoadWordsFunction
+// LoadWordDetails
+const loadWordDetail = async (id) => {
+  const url = `https://openapi.programming-hero.com/api/word/${id}`;
+  //   console.log(url);
+
+  const res = await fetch(url);
+  const details = await res.json();
+  //   console.log(details);
+
+  displayWordDetails(details.data);
+};
+
+// SynonymMap
+const createElements = (arr) => {
+  const htmlElements = arr.map((el) => `<span class="btn">${el}</span>`);
+  return htmlElements.join(" ");
+};
+
+// DisplayWordDetails
+const displayWordDetails = (word) => {
+  //   console.log(word);
+
+  const wordsDetailsBox = document.getElementById("words-details-container");
+  wordsDetailsBox.innerHTML = `
+    <div>
+        <h2 class="text-2xl font-bold">
+            ${word.word} (<i class="fa-solid fa-microphone-lines"></i> : ${word.pronunciation})
+        </h2>
+    </div>
+    <div>
+        <h3 class="font-bold">Meaning</h3>
+        <p>${word.meaning}</p>
+    </div>
+    <div>
+        <h3 class="font-bold">Example</h3>
+        <p>${word.sentence}</p>
+    </div>
+    <div>
+        <h3 class="font-bold">Synonym</h3>
+        <div>
+            ${createElements(word.synonyms)}
+        </div>
+    </div>
+`;
+  document.getElementById("word_info_modal").showModal();
+};
+
+// LoadLevelWordsFunction
 const loadLevelWord = (id) => {
   //   console.log(id);
 
@@ -66,6 +107,7 @@ const displayLevelWord = (words) => {
             <div class="text-2xl font-medium font-bangla">"${word.meaning ? word.meaning : "No meaning found"} / ${word.pronunciation ? word.pronunciation : "No pronounciation found!"}"</div>
             <div class="flex justify-between items-center">
               <button
+                onclick="loadWordDetail(${word.id})"
                 class="cursor-pointer bg-[#1A91FF10] hover:bg-[#1A91FF80] transition-colors duration-300 p-3"
               >
                 <i class="fa-solid fa-circle-info"></i>
@@ -80,6 +122,14 @@ const displayLevelWord = (words) => {
     `;
     wordContainer.append(card);
   });
+};
+
+// LoadLessonsFunction
+const loadLessons = () => {
+  const url = "https://openapi.programming-hero.com/api/levels/all";
+  fetch(url) //PromiseOfResponse
+    .then((res) => res.json()) //PromiseOfJSONData
+    .then((data) => displayLesson(data.data));
 };
 
 // DisplayLessonsFunction
