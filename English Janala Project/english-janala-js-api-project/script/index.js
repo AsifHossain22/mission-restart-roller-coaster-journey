@@ -1,3 +1,14 @@
+// LoadingSpinnerFunction
+const showLoading = (status) => {
+  if (status == true) {
+    document.getElementById("loading-spinner").classList.remove("hidden");
+    document.getElementById("word-container").classList.add("hidden");
+  } else {
+    document.getElementById("loading-spinner").classList.add("hidden");
+    document.getElementById("word-container").classList.remove("hidden");
+  }
+};
+
 // RemoveActiveClassFunction
 const removeActiveClass = () => {
   const lessonButtons = document.querySelectorAll(".lesson-btn");
@@ -57,6 +68,8 @@ const displayWordDetails = (word) => {
 const loadLevelWord = (id) => {
   //   console.log(id);
 
+  showLoading(true); // ShowLoadingSpinner
+
   const url = `https://openapi.programming-hero.com/api/level/${id}`;
   //   console.log(url);
 
@@ -90,6 +103,8 @@ const displayLevelWord = (words) => {
     </div>
     `;
 
+    showLoading(false); // HideLoadingSpinner
+
     return;
   }
 
@@ -122,6 +137,7 @@ const displayLevelWord = (words) => {
     `;
     wordContainer.append(card);
   });
+  showLoading(false); // HideLoadingSpinner
 };
 
 // LoadLessonsFunction
