@@ -9,6 +9,13 @@ const showLoading = (status) => {
   }
 };
 
+// PronounceWordsFunction
+function pronounceWord(word) {
+  const utterance = new SpeechSynthesisUtterance(word);
+  utterance.lang = "en-EN"; // English
+  window.speechSynthesis.speak(utterance);
+}
+
 // RemoveActiveClassFunction
 const removeActiveClass = () => {
   const lessonButtons = document.querySelectorAll(".lesson-btn");
@@ -128,6 +135,7 @@ const displayLevelWord = (words) => {
                 <i class="fa-solid fa-circle-info"></i>
               </button>
               <button
+                onclick="pronounceWord('${word.word}')"
                 class="cursor-pointer bg-[#1A91FF10] hover:bg-[#1A91FF80] transition-colors duration-300 p-3"
               >
                 <i class="fa-solid fa-volume-high"></i>
