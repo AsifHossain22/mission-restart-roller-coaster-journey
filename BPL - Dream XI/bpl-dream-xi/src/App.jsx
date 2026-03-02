@@ -1,6 +1,9 @@
 import React from "react";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import Hero from "./components/Hero/Hero";
+import Players from "./components/Players/Players";
+import NewLetter from "./components/Newsletter/Newletter";
 
 function App() {
   return (
@@ -9,7 +12,16 @@ function App() {
       <Header />
 
       {/* Main */}
-      <main></main>
+      <main>
+        {/* HeroSection */}
+        <Hero />
+
+        {/* Players */}
+        <Players />
+
+        {/* Newsletter */}
+        <NewLetter />
+      </main>
 
       {/* Footer */}
       <Footer />

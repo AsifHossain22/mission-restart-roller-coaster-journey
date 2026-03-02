@@ -1,10 +1,10 @@
 import React from "react";
 import logo from "../../assets/images/logo.png";
-import { TbCoinFilled } from "react-icons/tb";
+import dollarIcon from "../../assets/images/dollar-icon.png";
 
 const Header = () => {
   return (
-    <header className="bg-base-100 shadow-sm">
+    <header className="bg-white/90 sticky top-0 z-50 backdrop-blur-xl">
       {/* Navbar */}
       <div className="navbar justify-between max-w-7xl mx-auto px-4 lg:px-0">
         <div className="navbar-start">
@@ -54,8 +54,11 @@ const Header = () => {
 
             {/* CoinsDisplayButton */}
             <div className="">
-              <a className="btn font-sora bg-transparent shadow-none border-none text-nav-link hover:text-hover-nav-link hover:bg-transparent hover:shadow-none transition-all duration-300 p-0">
-                0 Coin <TbCoinFilled />
+              <a className="btn font-sora bg-transparent shadow-none border-2 border-[#13131310] text-hover-nav-link hover:bg-transparent hover:shadow-none transition-all duration-300 px-5 py-4 rounded-2xl">
+                0 Coin{" "}
+                <span>
+                  <img src={dollarIcon} alt="Dollar Icon" />
+                </span>
               </a>
             </div>
           </ul>
@@ -123,8 +126,11 @@ const Header = () => {
 
             {/* CoinsDisplayButton */}
             <div className="text-center">
-              <a className="btn font-sora bg-transparent shadow-none border-none text-nav-link hover:text-hover-nav-link hover:bg-transparent hover:shadow-none transition-all duration-300 p-0">
-                0 Coin <TbCoinFilled />
+              <a className="btn font-sora bg-transparent shadow-none border-none text-hover-nav-link hover:bg-transparent hover:shadow-none transition-all duration-300 p-0">
+                0 Coin{" "}
+                <span>
+                  <img src={dollarIcon} alt="Dollar Icon" />
+                </span>
               </a>
             </div>
           </ul>

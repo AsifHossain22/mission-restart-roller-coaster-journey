@@ -65,9 +65,11 @@ const Footer = () => {
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="input input-bordered join-item focus:outline-none"
+                className="input text-black input-bordered join-item focus:outline-none"
               />
-              <button className="btn btn-primary join-item">Subscribe</button>
+              <button className="btn bg-[#121f5e] text-white join-item hover:bg-[#f14749] shadow-none">
+                Subscribe
+              </button>
             </div>
           </fieldset>
         </form>
