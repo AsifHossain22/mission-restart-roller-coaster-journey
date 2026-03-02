@@ -5,17 +5,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap");
 
 /* GlobalStyles */
-html,
-body {
-  font-family: "Inter", sans-serif;
-  scroll-behavior: smooth;
+@theme {
+  /* FontsVariables */
+  --font-sora: "Sora", sans-serif;
+  --font-inter: "Inter", sans-serif;
+
+  /* ColorsVariables */
+  --color-nav-link: #13131370;
+  --color-hover-nav-link: #131313;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Inter", sans-serif;
+html,
+body {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
