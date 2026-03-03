@@ -6,8 +6,8 @@ const Players = () => {
   return (
     <section className="max-w-7xl mx-auto py-8 px-4 lg:px-0 mt-4">
       {/* SectionTitleAndButton */}
-      <div className="flex justify-between items-center">
-        <h2 className="font-sora font-bold text-[28px] text-hover-nav-link">
+      <div className="flex flex-col lg:flex-row justify-between gap-4 lg:gap-0 items-center">
+        <h2 className="font-sora font-bold text-xl md:text-[28px] text-hover-nav-link">
           Available Players
         </h2>
         <div className="join join-vertical lg:join-horizontal">
@@ -41,19 +41,19 @@ const Players = () => {
           </div>
           {/* PlayerNationalityAndRole */}
           <div className="flex justify-between items-center border-b-2 border-[#13131310] pb-4">
-            <span>Country</span>
-            <span className="btn">Player Role</span>
+            <span className="text-xs md:text-sm">Country</span>
+            <span className="btn text-xs md:text-sm">Player Role</span>
           </div>
           {/* PlayerCardFooter */}
           <div className="pt-4">
             <p className="pb-4">Rating</p>
             <div className="flex justify-between items-center">
-              <span>Right-Hand-Batsman</span>
-              <span>Right-Hand-Batsman</span>
+              <span className="text-xs md:text-sm">Right-Hand-Batsman</span>
+              <span className="text-xs md:text-sm">Right-Hand-Batsman</span>
             </div>
             <div className="flex justify-between items-center mt-4">
-              <span>Price: 10000000</span>
-              <span className="btn">Choose Player</span>
+              <span className="text-xs md:text-sm">Price: 10000000</span>
+              <span className="btn text-xs md:text-sm">Choose Player</span>
             </div>
           </div>
         </div>
@@ -77,23 +77,22 @@ const Players = () => {
           </div>
           {/* PlayerNationalityAndRole */}
           <div className="flex justify-between items-center border-b-2 border-[#13131310] pb-4">
-            <span>Country</span>
-            <span className="btn">Player Role</span>
+            <span className="text-xs md:text-sm">Country</span>
+            <span className="btn text-xs md:text-sm">Player Role</span>
           </div>
           {/* PlayerCardFooter */}
           <div className="pt-4">
             <p className="pb-4">Rating</p>
             <div className="flex justify-between items-center">
-              <span>Right-Hand-Batsman</span>
-              <span>Right-Hand-Batsman</span>
+              <span className="text-xs md:text-sm">Right-Hand-Batsman</span>
+              <span className="text-xs md:text-sm">Right-Hand-Batsman</span>
             </div>
             <div className="flex justify-between items-center mt-4">
-              <span>Price: 10000000</span>
-              <span className="btn">Choose Player</span>
+              <span className="text-xs md:text-sm">Price: 10000000</span>
+              <span className="btn text-xs md:text-sm">Choose Player</span>
             </div>
           </div>
         </div>
-
         {/* PlayerCard */}
         <div className="p-6 rounded-2xl border-2 border-[#13131310]">
           {/* PlayerImage */}
@@ -113,23 +112,22 @@ const Players = () => {
           </div>
           {/* PlayerNationalityAndRole */}
           <div className="flex justify-between items-center border-b-2 border-[#13131310] pb-4">
-            <span>Country</span>
-            <span className="btn">Player Role</span>
+            <span className="text-xs md:text-sm">Country</span>
+            <span className="btn text-xs md:text-sm">Player Role</span>
           </div>
           {/* PlayerCardFooter */}
           <div className="pt-4">
             <p className="pb-4">Rating</p>
             <div className="flex justify-between items-center">
-              <span>Right-Hand-Batsman</span>
-              <span>Right-Hand-Batsman</span>
+              <span className="text-xs md:text-sm">Right-Hand-Batsman</span>
+              <span className="text-xs md:text-sm">Right-Hand-Batsman</span>
             </div>
             <div className="flex justify-between items-center mt-4">
-              <span>Price: 10000000</span>
-              <span className="btn">Choose Player</span>
+              <span className="text-xs md:text-sm">Price: 10000000</span>
+              <span className="btn text-xs md:text-sm">Choose Player</span>
             </div>
           </div>
         </div>
-
         {/* PlayerCard */}
         <div className="p-6 rounded-2xl border-2 border-[#13131310]">
           {/* PlayerImage */}
@@ -149,23 +147,22 @@ const Players = () => {
           </div>
           {/* PlayerNationalityAndRole */}
           <div className="flex justify-between items-center border-b-2 border-[#13131310] pb-4">
-            <span>Country</span>
-            <span className="btn">Player Role</span>
+            <span className="text-xs md:text-sm">Country</span>
+            <span className="btn text-xs md:text-sm">Player Role</span>
           </div>
           {/* PlayerCardFooter */}
           <div className="pt-4">
             <p className="pb-4">Rating</p>
             <div className="flex justify-between items-center">
-              <span>Right-Hand-Batsman</span>
-              <span>Right-Hand-Batsman</span>
+              <span className="text-xs md:text-sm">Right-Hand-Batsman</span>
+              <span className="text-xs md:text-sm">Right-Hand-Batsman</span>
             </div>
             <div className="flex justify-between items-center mt-4">
-              <span>Price: 10000000</span>
-              <span className="btn">Choose Player</span>
+              <span className="text-xs md:text-sm">Price: 10000000</span>
+              <span className="btn text-xs md:text-sm">Choose Player</span>
             </div>
           </div>
         </div>
-
         {/* PlayerCard */}
         <div className="p-6 rounded-2xl border-2 border-[#13131310]">
           {/* PlayerImage */}
@@ -185,23 +182,22 @@ const Players = () => {
           </div>
           {/* PlayerNationalityAndRole */}
           <div className="flex justify-between items-center border-b-2 border-[#13131310] pb-4">
-            <span>Country</span>
-            <span className="btn">Player Role</span>
+            <span className="text-xs md:text-sm">Country</span>
+            <span className="btn text-xs md:text-sm">Player Role</span>
           </div>
           {/* PlayerCardFooter */}
           <div className="pt-4">
             <p className="pb-4">Rating</p>
             <div className="flex justify-between items-center">
-              <span>Right-Hand-Batsman</span>
-              <span>Right-Hand-Batsman</span>
+              <span className="text-xs md:text-sm">Right-Hand-Batsman</span>
+              <span className="text-xs md:text-sm">Right-Hand-Batsman</span>
             </div>
             <div className="flex justify-between items-center mt-4">
-              <span>Price: 10000000</span>
-              <span className="btn">Choose Player</span>
+              <span className="text-xs md:text-sm">Price: 10000000</span>
+              <span className="btn text-xs md:text-sm">Choose Player</span>
             </div>
           </div>
         </div>
-
         {/* PlayerCard */}
         <div className="p-6 rounded-2xl border-2 border-[#13131310]">
           {/* PlayerImage */}
@@ -221,23 +217,22 @@ const Players = () => {
           </div>
           {/* PlayerNationalityAndRole */}
           <div className="flex justify-between items-center border-b-2 border-[#13131310] pb-4">
-            <span>Country</span>
-            <span className="btn">Player Role</span>
+            <span className="text-xs md:text-sm">Country</span>
+            <span className="btn text-xs md:text-sm">Player Role</span>
           </div>
           {/* PlayerCardFooter */}
           <div className="pt-4">
             <p className="pb-4">Rating</p>
             <div className="flex justify-between items-center">
-              <span>Right-Hand-Batsman</span>
-              <span>Right-Hand-Batsman</span>
+              <span className="text-xs md:text-sm">Right-Hand-Batsman</span>
+              <span className="text-xs md:text-sm">Right-Hand-Batsman</span>
             </div>
             <div className="flex justify-between items-center mt-4">
-              <span>Price: 10000000</span>
-              <span className="btn">Choose Player</span>
+              <span className="text-xs md:text-sm">Price: 10000000</span>
+              <span className="btn text-xs md:text-sm">Choose Player</span>
             </div>
           </div>
         </div>
-
         {/* PlayerCard */}
         <div className="p-6 rounded-2xl border-2 border-[#13131310]">
           {/* PlayerImage */}
@@ -257,23 +252,22 @@ const Players = () => {
           </div>
           {/* PlayerNationalityAndRole */}
           <div className="flex justify-between items-center border-b-2 border-[#13131310] pb-4">
-            <span>Country</span>
-            <span className="btn">Player Role</span>
+            <span className="text-xs md:text-sm">Country</span>
+            <span className="btn text-xs md:text-sm">Player Role</span>
           </div>
           {/* PlayerCardFooter */}
           <div className="pt-4">
             <p className="pb-4">Rating</p>
             <div className="flex justify-between items-center">
-              <span>Right-Hand-Batsman</span>
-              <span>Right-Hand-Batsman</span>
+              <span className="text-xs md:text-sm">Right-Hand-Batsman</span>
+              <span className="text-xs md:text-sm">Right-Hand-Batsman</span>
             </div>
             <div className="flex justify-between items-center mt-4">
-              <span>Price: 10000000</span>
-              <span className="btn">Choose Player</span>
+              <span className="text-xs md:text-sm">Price: 10000000</span>
+              <span className="btn text-xs md:text-sm">Choose Player</span>
             </div>
           </div>
         </div>
-
         {/* PlayerCard */}
         <div className="p-6 rounded-2xl border-2 border-[#13131310]">
           {/* PlayerImage */}
@@ -293,23 +287,22 @@ const Players = () => {
           </div>
           {/* PlayerNationalityAndRole */}
           <div className="flex justify-between items-center border-b-2 border-[#13131310] pb-4">
-            <span>Country</span>
-            <span className="btn">Player Role</span>
+            <span className="text-xs md:text-sm">Country</span>
+            <span className="btn text-xs md:text-sm">Player Role</span>
           </div>
           {/* PlayerCardFooter */}
           <div className="pt-4">
             <p className="pb-4">Rating</p>
             <div className="flex justify-between items-center">
-              <span>Right-Hand-Batsman</span>
-              <span>Right-Hand-Batsman</span>
+              <span className="text-xs md:text-sm">Right-Hand-Batsman</span>
+              <span className="text-xs md:text-sm">Right-Hand-Batsman</span>
             </div>
             <div className="flex justify-between items-center mt-4">
-              <span>Price: 10000000</span>
-              <span className="btn">Choose Player</span>
+              <span className="text-xs md:text-sm">Price: 10000000</span>
+              <span className="btn text-xs md:text-sm">Choose Player</span>
             </div>
           </div>
         </div>
-
         {/* PlayerCard */}
         <div className="p-6 rounded-2xl border-2 border-[#13131310]">
           {/* PlayerImage */}
@@ -329,23 +322,22 @@ const Players = () => {
           </div>
           {/* PlayerNationalityAndRole */}
           <div className="flex justify-between items-center border-b-2 border-[#13131310] pb-4">
-            <span>Country</span>
-            <span className="btn">Player Role</span>
+            <span className="text-xs md:text-sm">Country</span>
+            <span className="btn text-xs md:text-sm">Player Role</span>
           </div>
           {/* PlayerCardFooter */}
           <div className="pt-4">
             <p className="pb-4">Rating</p>
             <div className="flex justify-between items-center">
-              <span>Right-Hand-Batsman</span>
-              <span>Right-Hand-Batsman</span>
+              <span className="text-xs md:text-sm">Right-Hand-Batsman</span>
+              <span className="text-xs md:text-sm">Right-Hand-Batsman</span>
             </div>
             <div className="flex justify-between items-center mt-4">
-              <span>Price: 10000000</span>
-              <span className="btn">Choose Player</span>
+              <span className="text-xs md:text-sm">Price: 10000000</span>
+              <span className="btn text-xs md:text-sm">Choose Player</span>
             </div>
           </div>
         </div>
-
         {/* PlayerCard */}
         <div className="p-6 rounded-2xl border-2 border-[#13131310]">
           {/* PlayerImage */}
@@ -365,23 +357,22 @@ const Players = () => {
           </div>
           {/* PlayerNationalityAndRole */}
           <div className="flex justify-between items-center border-b-2 border-[#13131310] pb-4">
-            <span>Country</span>
-            <span className="btn">Player Role</span>
+            <span className="text-xs md:text-sm">Country</span>
+            <span className="btn text-xs md:text-sm">Player Role</span>
           </div>
           {/* PlayerCardFooter */}
           <div className="pt-4">
             <p className="pb-4">Rating</p>
             <div className="flex justify-between items-center">
-              <span>Right-Hand-Batsman</span>
-              <span>Right-Hand-Batsman</span>
+              <span className="text-xs md:text-sm">Right-Hand-Batsman</span>
+              <span className="text-xs md:text-sm">Right-Hand-Batsman</span>
             </div>
             <div className="flex justify-between items-center mt-4">
-              <span>Price: 10000000</span>
-              <span className="btn">Choose Player</span>
+              <span className="text-xs md:text-sm">Price: 10000000</span>
+              <span className="btn text-xs md:text-sm">Choose Player</span>
             </div>
           </div>
         </div>
-
         {/* PlayerCard */}
         <div className="p-6 rounded-2xl border-2 border-[#13131310]">
           {/* PlayerImage */}
@@ -401,23 +392,22 @@ const Players = () => {
           </div>
           {/* PlayerNationalityAndRole */}
           <div className="flex justify-between items-center border-b-2 border-[#13131310] pb-4">
-            <span>Country</span>
-            <span className="btn">Player Role</span>
+            <span className="text-xs md:text-sm">Country</span>
+            <span className="btn text-xs md:text-sm">Player Role</span>
           </div>
           {/* PlayerCardFooter */}
           <div className="pt-4">
             <p className="pb-4">Rating</p>
             <div className="flex justify-between items-center">
-              <span>Right-Hand-Batsman</span>
-              <span>Right-Hand-Batsman</span>
+              <span className="text-xs md:text-sm">Right-Hand-Batsman</span>
+              <span className="text-xs md:text-sm">Right-Hand-Batsman</span>
             </div>
             <div className="flex justify-between items-center mt-4">
-              <span>Price: 10000000</span>
-              <span className="btn">Choose Player</span>
+              <span className="text-xs md:text-sm">Price: 10000000</span>
+              <span className="btn text-xs md:text-sm">Choose Player</span>
             </div>
           </div>
         </div>
-
         {/* PlayerCard */}
         <div className="p-6 rounded-2xl border-2 border-[#13131310]">
           {/* PlayerImage */}
@@ -437,19 +427,19 @@ const Players = () => {
           </div>
           {/* PlayerNationalityAndRole */}
           <div className="flex justify-between items-center border-b-2 border-[#13131310] pb-4">
-            <span>Country</span>
-            <span className="btn">Player Role</span>
+            <span className="text-xs md:text-sm">Country</span>
+            <span className="btn text-xs md:text-sm">Player Role</span>
           </div>
           {/* PlayerCardFooter */}
           <div className="pt-4">
             <p className="pb-4">Rating</p>
             <div className="flex justify-between items-center">
-              <span>Right-Hand-Batsman</span>
-              <span>Right-Hand-Batsman</span>
+              <span className="text-xs md:text-sm">Right-Hand-Batsman</span>
+              <span className="text-xs md:text-sm">Right-Hand-Batsman</span>
             </div>
             <div className="flex justify-between items-center mt-4">
-              <span>Price: 10000000</span>
-              <span className="btn">Choose Player</span>
+              <span className="text-xs md:text-sm">Price: 10000000</span>
+              <span className="btn text-xs md:text-sm">Choose Player</span>
             </div>
           </div>
         </div>
