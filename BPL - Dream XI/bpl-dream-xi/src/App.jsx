@@ -3,7 +3,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
 import Players from "./components/Players/Players";
-import NewLetter from "./components/Newsletter/Newletter";
+import NewsLetter from "./components/NewsLetter/NewsLetter";
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
         <Players />
 
         {/* Newsletter */}
-        <NewLetter />
+        <NewsLetter />
       </main>
 
       {/* Footer */}

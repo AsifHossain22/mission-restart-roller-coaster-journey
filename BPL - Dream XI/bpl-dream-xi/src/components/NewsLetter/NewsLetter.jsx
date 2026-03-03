@@ -1,6 +1,6 @@
 import React from "react";
 
-const NewLetter = () => {
+const NewsLetter = () => {
   return (
     <div>
       <h1>NewsLetter</h1>
@@ -8,4 +8,4 @@ const NewLetter = () => {
   );
 };
 
-export default NewLetter;
+export default NewsLetter;
