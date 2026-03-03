@@ -1,0 +1,122 @@
+[
+  {
+    "player_image": "https://i.ibb.co/fd1D6rBY/Mohammad-Naim.webp",
+    "player_name": "Mohammad Naim",
+    "country": "Bangladesh",
+    "playing_role": "Opening Batter",
+    "batting_style": "Left-hand Bat",
+    "bowling_style": "Right-arm Offbreak",
+    "price": "1.1 Crore BDT",
+    "ranking": "T20I Batting: 51"
+  },
+  {
+    "player_image": "https://i.ibb.co/k2kgZHRk/Tawhid-Hridoy.jpg",
+    "player_name": "Tawhid Hridoy",
+    "country": "Bangladesh",
+    "playing_role": "Batter",
+    "batting_style": "Right-hand Bat",
+    "bowling_style": "Right-arm Offbreak",
+    "price": "92 Lakh BDT",
+    "ranking": "ODI Batting: 33"
+  },
+  {
+    "player_image": "https://i.ibb.co/8L0HJFmX/Dasun-Shanaka.jpg",
+    "player_name": "Dasun Shanaka",
+    "country": "Sri Lanka",
+    "playing_role": "All-rounder",
+    "batting_style": "Right-hand Bat",
+    "bowling_style": "Right-arm Medium",
+    "price": "$55,000 USD",
+    "ranking": "T20I All-rounder: 24"
+  },
+  {
+    "player_image": "https://i.ibb.co/G3fSScqP/Litton-Das.jpg",
+    "player_name": "Litton Das",
+    "country": "Bangladesh",
+    "playing_role": "Wicketkeeper Batter",
+    "batting_style": "Right-hand Bat",
+    "bowling_style": "Right-arm Offbreak",
+    "price": "70 Lakh BDT",
+    "ranking": "Test Batting: 37"
+  },
+  {
+    "player_image": "https://i.ibb.co/VpPdxCFC/Mohammad-Saifuddin.jpg",
+    "player_name": "Mohammad Saifuddin",
+    "country": "Bangladesh",
+    "playing_role": "All-rounder",
+    "batting_style": "Left-hand Bat",
+    "bowling_style": "Right-arm Fast-medium",
+    "price": "68 Lakh BDT",
+    "ranking": "T20I Bowling: 65"
+  },
+  {
+    "player_image": "https://i.ibb.co/27rYHQkP/Tanzim-Hasan-Sakib.jpg",
+    "player_name": "Tanzim Hasan Sakib",
+    "country": "Bangladesh",
+    "playing_role": "Bowler",
+    "batting_style": "Right-hand Bat",
+    "bowling_style": "Right-arm Fast-medium",
+    "price": "65 Lakh BDT",
+    "ranking": "ODI Bowling: 72"
+  },
+  {
+    "player_image": "https://i.ibb.co/6JX2FvJz/Nahid-Rana.jpg",
+    "player_name": "Nahid Rana",
+    "country": "Bangladesh",
+    "playing_role": "Bowler",
+    "batting_style": "Right-hand Bat",
+    "bowling_style": "Right-arm Fast",
+    "price": "56 Lakh BDT",
+    "ranking": "Test Bowling: 82"
+  },
+  {
+    "player_image": "https://i.ibb.co/YTL8gh29/Shamim-Hossain.webp",
+    "player_name": "Shamim Hossain",
+    "country": "Bangladesh",
+    "playing_role": "All-rounder",
+    "batting_style": "Left-hand Bat",
+    "bowling_style": "Right-arm Offbreak",
+    "price": "56 Lakh BDT",
+    "ranking": "T20I Batting: 112"
+  },
+  {
+    "player_image": "https://i.ibb.co/21dtYJh7/Mohammad-Mithun.jpg",
+    "player_name": "Mohammad Mithun",
+    "country": "Bangladesh",
+    "playing_role": "Wicketkeeper Batter",
+    "batting_style": "Right-hand Bat",
+    "bowling_style": "Right-arm Offbreak",
+    "price": "52 Lakh BDT",
+    "ranking": "ODI Batting: 98"
+  },
+  {
+    "player_image": "https://i.ibb.co/cck6p1fK/Shoriful-Islam.webp",
+    "player_name": "Shoriful Islam",
+    "country": "Bangladesh",
+    "playing_role": "Bowler",
+    "batting_style": "Left-hand Bat",
+    "bowling_style": "Left-arm Medium-fast",
+    "price": "44 Lakh BDT",
+    "ranking": "T20I Bowling: 63"
+  },
+  {
+    "player_image": "https://i.ibb.co/Q3dw0k43/Angelo-Mathews.jpg",
+    "player_name": "Angelo Mathews",
+    "country": "Sri Lanka",
+    "playing_role": "All-rounder",
+    "batting_style": "Right-hand Bat",
+    "bowling_style": "Right-arm Medium",
+    "price": "$35,000 USD",
+    "ranking": "Test Batting: 25"
+  },
+  {
+    "player_image": "https://i.ibb.co/0pXNHsqH/Mushfiqur-Rahim.jpg",
+    "player_name": "Mushfiqur Rahim",
+    "country": "Bangladesh",
+    "playing_role": "Wicketkeeper Batter",
+    "batting_style": "Right-hand Bat",
+    "bowling_style": "Right-arm Legbreak",
+    "price": "35 Lakh BDT",
+    "ranking": "Test Batting: 29"
+  }
+]
