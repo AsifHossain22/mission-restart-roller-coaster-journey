@@ -3,7 +3,10 @@ import { FaPlus } from "react-icons/fa6";
 
 const Header = () => {
   return (
-    <header className="bg-white border-b border-[#E9E9E9]">
+    <header
+      className="bg-white border-b border-[#E9E9E9] sticky top-0 z-50
+  backdrop-blur-md"
+    >
       {/* Navbar */}
       <div className="navbar justify-between max-w-7xl mx-auto px-4 lg:px-0">
         <div className="navbar-start">
