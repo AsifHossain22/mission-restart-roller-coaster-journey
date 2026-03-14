@@ -1,0 +1,5 @@
+/* TailwindCSS */
+@import "tailwindcss";
+
+/* DaisyUI */
+@plugin "daisyui";

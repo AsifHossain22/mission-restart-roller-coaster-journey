@@ -8,8 +8,8 @@ const Banner = () => {
       <div className="flex items-center gap-4">
         {/* InProgressColumn */}
         <div className="relative overflow-hidden w-full h-62.5 bg-linear-to-r from-[#632EE3] to-[#9F62F2] rounded-lg">
-          <img src={leftBG} class="absolute top-0 left-0" alt="" />
-          <img src={rightBG} class="absolute top-0 right-0" alt="" />
+          <img src={leftBG} className="absolute top-0 left-0" alt="" />
+          <img src={rightBG} className="absolute top-0 right-0" alt="" />
 
           {/* Content */}
           <div className="flex justify-center items-center h-full">
@@ -22,8 +22,8 @@ const Banner = () => {
 
         {/* ResolvedColumn */}
         <div className="relative overflow-hidden w-full h-62.5 bg-linear-to-r from-[#54CF68] to-[#00827A] rounded-lg">
-          <img src={leftBG} class="absolute top-0 left-0" alt="" />
-          <img src={rightBG} class="absolute top-0 right-0" alt="" />
+          <img src={leftBG} className="absolute top-0 left-0" alt="" />
+          <img src={rightBG} className="absolute top-0 right-0" alt="" />
 
           {/* Content */}
           <div className="flex justify-center items-center h-full">
