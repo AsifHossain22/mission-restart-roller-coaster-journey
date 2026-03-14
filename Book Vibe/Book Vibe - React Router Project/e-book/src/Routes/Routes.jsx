@@ -1,6 +1,6 @@
 import React from "react";
 // ReactRouter
-import { createBrowserRouter, RouterProvider } from "react-router";
+import { createBrowserRouter } from "react-router";
 import Root from "../pages/Root/Root";
 import Error from "../pages/Error/Error";
 import Home from "../pages/Home/Home";
