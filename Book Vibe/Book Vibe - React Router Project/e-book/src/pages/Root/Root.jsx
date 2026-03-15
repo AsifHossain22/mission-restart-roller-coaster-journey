@@ -5,16 +5,18 @@ import { Outlet } from "react-router";
 
 const Root = () => {
   return (
-    <main className="max-w-6xl mx-auto">
+    <>
       {/* Header */}
       <Header />
 
-      {/* Main */}
-      <Outlet />
+      {/* Sections */}
+      <section className="max-w-6xl mx-auto">
+        <Outlet />
+      </section>
 
       {/* Footer */}
       <Footer />
-    </main>
+    </>
   );
 };
 
