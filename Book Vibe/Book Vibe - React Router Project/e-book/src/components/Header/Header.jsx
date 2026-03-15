@@ -6,7 +6,7 @@ const Header = () => {
       <li className="m-2">
         <a
           href=""
-          className="btn text-lg text-primary-brand hover:text-base-100 bg-transparent hover:bg-primary-brand transition-colors duration-300 border-2 px-5 py-3.5 rounded-lg"
+          className="btn text-lg text-primary-brand hover:text-base-100 bg-transparent hover:bg-primary-brand transition-colors duration-300 border-2 border-primary-brand px-5 py-3.5 rounded-lg"
         >
           Home
         </a>
@@ -14,7 +14,7 @@ const Header = () => {
       <li className="m-2">
         <a
           href=""
-          className="btn text-lg text-primary-brand hover:text-base-100 bg-transparent hover:bg-primary-brand transition-colors duration-300 border-2 px-5 py-3.5 rounded-lg"
+          className="btn text-lg text-primary-brand hover:text-base-100 bg-transparent hover:bg-primary-brand transition-colors duration-300 border-2 border-primary-brand px-5 py-3.5 rounded-lg"
         >
           Listed Books
         </a>
@@ -22,7 +22,7 @@ const Header = () => {
       <li className="m-2">
         <a
           href=""
-          className="btn text-lg text-primary-brand hover:text-base-100 bg-transparent hover:bg-primary-brand transition-colors duration-300 border-2 px-5 py-3.5 rounded-lg"
+          className="btn text-lg text-primary-brand hover:text-base-100 bg-transparent hover:bg-primary-brand transition-colors duration-300 border-2 border-primary-brand px-5 py-3.5 rounded-lg"
         >
           Page to Read
         </a>
@@ -31,7 +31,7 @@ const Header = () => {
   );
   return (
     <nav>
-      <div className="navbar">
+      <div className="navbar lg:p-0 lg:py-4">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -58,7 +58,7 @@ const Header = () => {
               {navLinks}
             </ul>
           </div>
-          <a className="btn text-[28px] font-bold bg-transparent shadow-none border-none hover:scale-110 transition-transform duration-300">
+          <a className="btn text-[28px] font-bold bg-transparent shadow-none border-none hover:scale-110 transition-transform duration-300 lg:p-0">
             Book Vibe
           </a>
         </div>
