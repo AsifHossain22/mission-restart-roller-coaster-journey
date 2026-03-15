@@ -3,3 +3,13 @@
 
 /* DaisyUI */
 @plugin "daisyui";
+
+/* GlobalColors */
+body {
+  color: #131313;
+}
+
+@theme {
+  --color-primary-brand: #23be0a;
+  --color-secondary-brand: #59c6d2;
+}

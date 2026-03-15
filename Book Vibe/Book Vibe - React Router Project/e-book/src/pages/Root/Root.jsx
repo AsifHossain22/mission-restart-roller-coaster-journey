@@ -5,7 +5,7 @@ import { Outlet } from "react-router";
 
 const Root = () => {
   return (
-    <div>
+    <main className="max-w-6xl mx-auto">
       {/* Header */}
       <Header />
 
@@ -14,7 +14,7 @@ const Root = () => {
 
       {/* Footer */}
       <Footer />
-    </div>
+    </main>
   );
 };
 
